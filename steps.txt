@@ -1,0 +1,12 @@
+ 1. Setup origin to local (only for newly created)
+	1.1 git init (new repo)
+ 2. Existing - Pull or clone repository
+ 
+ 3. branch create/ switch branch --> branch_name
+	3.1 -> git branch container-change
+	3.2 -> git checkout container-change
+ 
+ 4. git add .
+	4.1 git status => get status of file change (red text color - un staging files, green text - staged files)
+ 5. git commit -m "US123534_container_and grid implementation"
+ 6. git push -u origin "branch_name"
